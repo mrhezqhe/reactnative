@@ -1,0 +1,53 @@
+# OSX
+#
+albums/.DS_Store
+
+# Xcode
+#
+albums/build/
+albums/*.pbxuser
+albums/!default.pbxuser
+albums/*.mode1v3
+albums/!default.mode1v3
+albums/*.mode2v3
+albums/!default.mode2v3
+albums/*.perspectivev3
+albums/!default.perspectivev3
+albums/xcuserdata
+albums/*.xccheckout
+albums/*.moved-aside
+albums/DerivedData
+albums/*.hmap
+albums/*.ipa
+albums/*.xcuserstate
+albums/project.xcworkspace
+
+# Android/IntelliJ
+#
+albums/build/
+albums/.idea
+albums/.gradle
+albums/local.properties
+albums/*.iml
+
+# node.js
+#
+albums/node_modules/
+albums/npm-debug.log
+albums/yarn-error.log
+
+# BUCK
+albums/buck-out/
+albums/\.buckd/
+albums/*.keystore
+
+# fastlane
+#
+# It is recommended to not store the screenshots in the git repo. Instead, use fastlane to re-generate the
+# screenshots whenever they are needed.
+# For more information about the recommended setup visit:
+# https://docs.fastlane.tools/best-practices/source-control/
+
+albums/*/fastlane/report.xml
+albums/*/fastlane/Preview.html
+albums/*/fastlane/screenshots
